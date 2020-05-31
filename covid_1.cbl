@@ -147,7 +147,7 @@
                rec_total_recuperados
                rec_date
            END-UNSTRING.
-      
+
            move rec_country to country_ln.
            move rec_country_code to ln_country_code.
            move rec_new_cases to ln_new_cases.
