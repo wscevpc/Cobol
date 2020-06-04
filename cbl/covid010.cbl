@@ -107,6 +107,7 @@
                10 FILLER             PIC X(001) value ":".
                10 rec_second         PIC 9(002).
                10 rec_z              PIC X(001).
+      
       *-----------------------------------------------------------------
        PROCEDURE DIVISION.
       *
@@ -164,3 +165,4 @@
            move rec_second to ln_second.
       *
        END PROGRAM pandemic_rpt.
+      
